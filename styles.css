@@ -27,3 +27,11 @@
 body {
     font-family: monospace;
 }
+
+a {
+    position: relative;
+}
+
+#downdownMenu {
+    opacity: .99;
+ }

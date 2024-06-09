@@ -10,12 +10,10 @@ let prevY;
 $(document).ready(function () {
     requestAnimationFrame(plotSine);
 
-    $(document).bind("mousemove", function (e) {
-        wavelength = calcWavelength(e.pageX, e.pageY)
-        console.log(wavelength)
-        first = false;
+    $('#dropdownMenu').on('click', function (event) {
+        event.stopPropagation();
+    });
 
-    })
 });
 
 function plotSine() {
