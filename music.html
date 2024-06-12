@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/png" href="ico.png">
     <script src="https://cdn.tailwindcss.com"></script>
-    <script src="scripts/contact.js"></script>
 </head>
 
 <body>
@@ -30,43 +29,58 @@
     </div>
 
 
-    <div class="h-[calc(100vh-120px)] w-screen max-w-sm mx-auto">
-        <h3 class="lg:text-lg md:text-base mb-4">You can contact Oscar directly at avilaboe2@gmail.com or use the form below.</h3>
-        <form id="contactForm" autocomplete="off">
-            <div class="mb-4">
-                <label class="block text-gray-700 text-sm font-bold mb-2" for="username">
-                    Name
-                </label>
-
-                <input
-                    class="focus:border-red-500 shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                    id="username" type="text" placeholder="Name" name="from_name" required>
+    <div class="h-[calc(100vh-120px)] flex flex-col items-center ">
+        <div class="collapse collapse-arrow w-2/3 mb-4">
+            <input type="radio" name="my-accordion-2" />
+            <div class="collapse-title text-xl font-medium text-white accordions">
+                Todo en exceso (2024)
             </div>
-
-            <div class="mb-4">
-                <label class="block text-gray-700 text-sm font-bold mb-2" for="email">
-                    Email
-                </label>
-
-                <input
-                    class="focus:border-red-500 shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                    id="email" type="email" placeholder="Email" name="from_email" required>
+            <div class="collapse-content text-white accordions">
+                <p>hello</p>
             </div>
+        </div>
 
-            <div class="mb-4">
-                <label class="block text-gray-700 text-sm font-bold mb-2" for="message">
-                    Message
-                </label>
-
-                <textarea
-                    class="focus:border-red-500 shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                    id="message" name="sent_message" required></textarea>
+        <div class="collapse collapse-arrow w-2/3 mb-4">
+            <input type="radio" name="my-accordion-2" />
+            <div class="collapse-title text-xl font-medium text-white accordions">
+                Dynamic Dial (2023)
             </div>
-
-            <div class="mb-4">
-                <button type="submit" class="btn btn-primary hover:bg-red-500" id="submit">Submit</button>
+            <div class="collapse-content text-white accordions">
+                <p>hello</p>
             </div>
-        </form>
+        </div>
+
+        <div class="collapse collapse-arrow w-2/3 mb-4">
+            <input type="radio" name="my-accordion-2" />
+            <div class="collapse-title text-xl font-medium text-white accordions">
+                ¡Golazo! (2023)
+            </div>
+            <div class="collapse-content text-white accordions">
+                <p>hello</p>
+            </div>
+        </div>
+
+        <div class="collapse collapse-arrow w-2/3 mb-4">
+            <input type="radio" name="my-accordion-2" />
+            <div class="collapse-title text-xl font-medium text-white accordions">
+                De repente (2023)
+            </div>
+            <div class="collapse-content text-white accordions">
+                <p>hello</p>
+            </div>
+        </div>
+
+        <div class="collapse collapse-arrow w-2/3 mb-4">
+            <input type="radio" name="my-accordion-2" />
+            <div class="collapse-title text-xl font-medium text-white accordions">
+                Primero (2022)
+            </div>
+            <div class="collapse-content text-white accordions">
+                <p>hello</p>
+            </div>
+        </div>
+
+        
     </div>
 
     <div class="footer-center">
